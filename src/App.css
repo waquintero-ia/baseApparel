@@ -7,8 +7,6 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   min-height: 100vh;
   @apply bg-gradient-to-tr from-white-100 to-pink-400;
-  background-image: url(../public/images/bg-pattern-desktop.svg);
-
 }
 
 #nav{
@@ -16,6 +14,8 @@ body {
 }
 
 .container {
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 9.60vh;
   padding-left: 8.54vw;
   padding-right: 8.54vw;
@@ -36,6 +36,10 @@ body {
 }
 
 @media (min-width: 80rem) {
+  body {
+    background-image: url(../public/images/bg-pattern-desktop.svg);
+  }
+
   #nav {
     padding-top: 4.52vw;
     padding-left: 11.46vw;
