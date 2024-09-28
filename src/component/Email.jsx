@@ -3,14 +3,14 @@ import { useState } from 'react';
 const Email = () =>{
   const composition_label = 'sr-only'
   const composition_container_input = 'relative w-full'
-  const composition_input ='w-full min-h-[48px] text-[14px] pl-6 rounded-[28px] border border-pink-100 placeholder-pink-100 placeholder:text-[14px]'
-  const composition_input_xl = 'min-h-[56px] xl:pl-8 xl:placeholder:text-[16px]'
+  const composition_input ='w-full min-h-[48px] text-14 pl-6 rounded-[28px] border border-pink-100 placeholder-pink-100 placeholder:text-14'
+  const composition_input_xl = 'xl:min-h-[56px] xl:pl-8 xl:placeholder:text-16'
   const composition_button = 'absolute inset-y-0 right-0 w-[64px] rounded-[28px] flex justify-center items-center bg-gradient-to-tl from-pink-300 to-pink-200 shadow-button-shadow cursor-pointer'
   const composition_button_xl = 'xl:w-[100px]'
   const composition_icon_error ='absolute top-1/4 right-16'
   const composition_icon_error_xl = 'xl:right-24'
   const composition_error_input = 'border-[2px] border-red-100'
-  const composition_msg_error = 'msg__error text-red-100 pl-6 text-[12px] mt-2'
+  const composition_msg_error = 'msg__error text-red-100 pl-6 text-12 mt-2'
 
   const [email, setEmail] = useState('');
   const [error, setError] = useState(false);

@@ -1,9 +1,9 @@
 const Title = () =>{
-  const composition_h1 = 'text-[40px] text-pink-100 font-light leading-[100%] tracking-[10.83px] text-center uppercase' 
-  const composition_h1_xl = 'xl:text-[64px] xl:text-left xl:leading-[110%] xl:tracking-[17.32px]'
+  const composition_h1 = 'text-40 text-pink-100 font-light leading-[100%] tracking-[10.83px] text-center uppercase' 
+  const composition_h1_xl = 'xl:text-64 xl:text-left xl:leading-[110%] xl:tracking-[17.32px]'
   const composition_span = 'font-semibold text-black-100'
-  const composition_description = 'text-[14px] leading-[170%] text-center text-pink-100'
-  const composition_description_xl = 'xl:text-[16px] xl:text-left xl:leading-[175%]'
+  const composition_description = 'text-14 leading-[170%] text-center text-pink-100'
+  const composition_description_xl = 'xl:text-16 xl:text-left xl:leading-[175%]'
   return(
     <>
       <article className="title__container flow__title">

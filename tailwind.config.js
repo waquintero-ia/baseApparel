@@ -24,6 +24,13 @@ export default {
       boxShadow:{
         'button-shadow': '0 15px 20px rgba(198, 110, 110, 0.2476)',
       },
+      fontSize:{
+        64: '4rem',
+        40: '2.5rem',
+        16: '1rem',
+        14: '0.875rem',
+        12: '0.75rem',
+      },
     },
   },
   plugins: [],
