@@ -1,6 +1,6 @@
 const Navigation = () =>{
   const composition_image = 'w-[26.66vw]'
-  const composition_image_xl = 'xl:w-[10.98vw]'
+  const composition_image_xl = 'lg:w-[10.98vw]'
   return(
     <>
       <div id="nav" role="banner">
