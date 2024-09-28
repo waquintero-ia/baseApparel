@@ -8,12 +8,10 @@ function App() {
 
   return (
     <>
-      <header>
+      <main className='grid'>
         <Navigation />
-      </header>
-      <main className='xl:flex xl:flex-row-reverse'>
         <Hero />
-        <div className="container flow__container">
+        <div className="container flow__container" id='container'>
           <Title />
           <Email />
         </div>

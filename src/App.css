@@ -9,7 +9,7 @@ body {
   @apply bg-gradient-to-tr from-white-100 to-pink-400
 }
 
-nav{
+#nav{
   padding: 8.54vw;
 }
 
@@ -31,4 +31,38 @@ nav{
 @media (prefers-reduced-motion: no-preference) {
 
   
+}
+
+@media (min-width: 80rem) {
+  #nav {
+    padding-top: 4.52vw;
+    padding-left: 11.46vw;
+    padding-bottom: 0;
+  }
+
+  .container {
+    padding-top: 13.75vh;
+    padding-left: 11.46vw;
+    padding-right: 7.7vw;
+  }
+
+  main {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8);
+  }
+
+  #hero {
+    grid-row: 1/9;
+
+  }
+
+  #nav {
+    grid-row: 1/5;
+
+  }
+
+  #container {
+    grid-row: 5/9;
+
+  }
 }

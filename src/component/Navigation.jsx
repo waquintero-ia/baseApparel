@@ -1,12 +1,13 @@
 const Navigation = () =>{
   const composition_image = 'w-[26.66vw]'
+  const composition_image_xl = 'xl:w-[10.98vw]'
   return(
     <>
-      <nav>
+      <div id="nav" role="banner">
         <picture>
-          <img className={`${composition_image}`} src="./images/logo.svg" alt="base apparel" loading="lazy" decoding="async"/>
+          <img className={`${composition_image} ${composition_image_xl}`} src="./images/logo.svg" alt="base apparel" loading="lazy" decoding="async"/>
         </picture>
-      </nav>
+      </div>
     </>
   )
 }
