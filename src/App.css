@@ -1,0 +1,34 @@
+:root {
+  --flow-space-title: 2.40vh;
+  --flow-space-container: 4.80vh;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  min-height: 100vh;
+  @apply bg-gradient-to-tr from-white-100 to-pink-400
+}
+
+nav{
+  padding: 8.54vw;
+}
+
+.container {
+  padding-top: 9.60vh;
+  padding-left: 8.54vw;
+  padding-right: 8.54vw;
+  padding-bottom: 13.80vh;
+}
+
+.flow__title > * + * {
+  margin-top: var(--flow-space-title, 1em);
+}
+
+.flow__container > * + * {
+  margin-top: var(--flow-space-container, 1em);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+  
+}
