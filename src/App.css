@@ -6,7 +6,9 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
   min-height: 100vh;
-  @apply bg-gradient-to-tr from-white-100 to-pink-400
+  @apply bg-gradient-to-tr from-white-100 to-pink-400;
+  background-image: url(../public/images/bg-pattern-desktop.svg);
+
 }
 
 #nav{
